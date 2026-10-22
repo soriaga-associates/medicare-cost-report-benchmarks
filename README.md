@@ -1,5 +1,7 @@
 # Medicare cost report benchmarks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23579043.svg)](https://doi.org/10.5281/zenodo.23579043)
+
 Open-source tool and dataset from [Soriaga & Associates, LLC](https://www.soriagacpa.com). It turns the public Medicare cost reports filed by **hospices** (Form CMS-1984-14) and **home health agencies** (Form CMS-1728-20) into aggregate benchmarks: cost per day or per visit, level-of-care and payer mix, size, and operating margins, by year, state, size band and type of control.
 
 Every Medicare-certified hospice and home health agency files a cost report with CMS each year. CMS publishes the data, but the raw files are large and hard to use. This project cleans them with documented rules and publishes only aggregates. No provider names, CCNs, addresses or provider-level rows appear in any output.
@@ -222,6 +224,8 @@ Credit is required (CC BY 4.0). Example:
 > Soriaga & Associates, LLC. "Hospice Cost Report Benchmarks" (FY 2024), https://www.soriagacpa.com/hospice-cost-report-benchmarks, based on CMS HCRIS data. CC BY 4.0.
 
 For home health, use "Home Health Cost Report Benchmarks" with the year, https://www.soriagacpa.com/home-health-cost-report-benchmarks, and "based on CMS data.cms.gov Home Health Agency Cost Report data". A machine-readable citation is in `CITATION.cff`.
+
+To cite the code and dataset in research, use the Zenodo DOI, which always resolves to the latest version: [10.5281/zenodo.23579043](https://doi.org/10.5281/zenodo.23579043). Version 0.1.0 alone is [10.5281/zenodo.23579044](https://doi.org/10.5281/zenodo.23579044).
 
 ## License
 

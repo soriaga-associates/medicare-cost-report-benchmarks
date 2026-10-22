@@ -9,6 +9,14 @@ authors:
 url: "https://www.soriagacpa.com/hospice-cost-report-benchmarks"
 repository-code: "https://github.com/soriaga-associates/medicare-cost-report-benchmarks"
 license: MIT
+doi: "10.5281/zenodo.23579043"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23579043"
+    description: "Concept DOI (all versions, resolves to the latest)"
+  - type: doi
+    value: "10.5281/zenodo.23579044"
+    description: "Version 0.1.0"
 abstract: "Aggregate benchmarks built from public CMS Medicare cost reports for hospices and home health agencies. Code is MIT licensed; outputs are CC BY 4.0. Not affiliated with or endorsed by CMS or HHS."
 keywords:
   - Medicare
