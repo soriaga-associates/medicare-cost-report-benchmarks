@@ -1,0 +1,13 @@
+# Downloaded CMS files (re-created by `python -m crbench download`)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.env

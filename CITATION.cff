@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset or tool, please cite it as below."
+type: software
+title: "Medicare Cost Report Benchmarks: hospice (CMS-1984-14) and home health (CMS-1728-20)"
+version: 0.1.0
+date-released: 2026-10-22
+authors:
+  - name: "Soriaga & Associates, LLC"
+url: "https://www.soriagacpa.com/hospice-cost-report-benchmarks"
+repository-code: "https://github.com/soriaga-associates/medicare-cost-report-benchmarks"
+license: MIT
+abstract: "Aggregate benchmarks built from public CMS Medicare cost reports for hospices and home health agencies. Code is MIT licensed; outputs are CC BY 4.0. Not affiliated with or endorsed by CMS or HHS."
+keywords:
+  - Medicare
+  - hospice
+  - home health
+  - cost reports
+  - benchmarks

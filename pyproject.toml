@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medicare-cost-report-benchmarks"
+version = "0.1.0"
+description = "Aggregate benchmarks from CMS Medicare cost reports for hospices (CMS-1984-14) and home health agencies (CMS-1728-20)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Soriaga & Associates, LLC" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://www.soriagacpa.com/hospice-cost-report-benchmarks"
+Repository = "https://github.com/soriaga-associates/medicare-cost-report-benchmarks"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
